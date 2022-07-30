@@ -1,4 +1,4 @@
-package com.example.blog
+package com.study.lunch
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test

@@ -1,4 +1,4 @@
-package com.example.blog
+package com.study.lunch
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

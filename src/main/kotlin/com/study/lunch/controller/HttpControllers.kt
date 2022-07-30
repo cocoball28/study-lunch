@@ -1,4 +1,4 @@
-package com.example.blog
+package com.study.lunch
 
 import org.springframework.http.HttpStatus.*
 import org.springframework.web.bind.annotation.*
