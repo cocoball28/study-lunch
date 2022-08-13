@@ -1,0 +1,47 @@
+{{> header}}
+
+<h1>{{title}}</h1>
+
+<div class="articles">
+
+    {{#banner.title}}
+        <section>
+            <header class="banner">
+                <h2 class="banner-title">{{banner.title}}</h2>
+            </header>
+            <div class="banner-content">
+                {{banner.content}}
+            </div>
+        </section>
+    {{/banner.title}}
+
+
+        <section>
+        <table class="table">
+                <thead>
+                    <tr>
+                        <th >id</th>
+                        <th >name</th>
+                        <th >address</th>
+                        <th >telNumber</th>
+                        <th >addedAt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#restaurants}}
+                    <tr>
+                        <td>{{id}}</td>
+                        <td>{{name}}</td>
+                        <td>{{address}}</td>
+                        <td>{{telNumber}}</td>
+                        <td>{{addedAt}}</td>
+                    </tr>
+                {{/restaurants}}
+                </tbody>
+            </table>
+        </section>
+
+
+</div>
+
+{{> footer}}

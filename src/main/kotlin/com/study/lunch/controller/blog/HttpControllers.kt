@@ -1,5 +1,7 @@
-package com.study.lunch
+package com.study.lunch.controller.blog
 
+import com.study.lunch.ArticleRepository
+import com.study.lunch.UserRepository
 import org.springframework.http.HttpStatus.*
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.server.ResponseStatusException
